@@ -1,0 +1,51 @@
+layout: sidebar
+style: light
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+#  sort_by: pushed
+  sort_by options:
+     - stars
+  limit: 9
+  exclude:
+    forks: true
+    projects:
+    # - repo-name
+
+social_media:
+  # behance: your_username
+  # dribbble: your_username
+  # facebook: your_username
+   linkedin: masoud-erfani-b0582413a
+  # medium: @your_username
+   stackoverflow: masoud-erfani
+  # telegram: your_username
+   twitter: masouderfaniii
+  # youtube: your_username
+  # vk: your_username
+
+topics:
+  - name: Machine Learning
+    #web_url: https://github.com/topics/css
+    image_url: https://miro.medium.com/max/1280/1*3CXBOKNql4qS-lRyHT3pqw.png
+
+  - name: Deep Learning
+    image_url: https://miro.medium.com/max/1280/0*6XnccoRFvqi4GkXu.jpeg
+
+  - name: Cyber Security
+    #web_url: https://github.com/topics/sass
+    image_url: https://www.yokogawa.com/eu/blog/oil-gas/app/uploads/2020/04/116137226_s-1440x564_c.jpg
